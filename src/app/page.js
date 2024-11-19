@@ -106,7 +106,9 @@ export default function Game() {
    });
 
   return (
+
     <div className="game">
+      <h1>Tic-Tac-Toe in React</h1>
       <div className="game-board">
       <Board squares={currentSquares} xIsNext={ xIsNext} onPlay={handlePlay} />
       </div>
